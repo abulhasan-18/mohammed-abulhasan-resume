@@ -2,7 +2,6 @@ import Hero from "@/components/Hero";
 import AboutSection from "@/components/experience/AboutSection";
 import CertificationsSection from "@/components/experience/CertificationsSection";
 import EducationSection from "@/components/experience/EducationSection";
-import LanguagesSection from "@/components/experience/LanguagesSection";
 import WorkExperienceSection from "@/components/experience/WorkExperienceSection";
 
 import ProjectSection from "./experience/ProjectSection";
@@ -16,7 +15,6 @@ export default function ExperienceResume() {
       <ProjectSection />
       <EducationSection />
       <CertificationsSection />
-      <LanguagesSection />
     </div>
   );
 }

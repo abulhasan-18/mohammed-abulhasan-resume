@@ -20,7 +20,7 @@ export default function WorkExperienceSection() {
           <ResumeJob
             title="Associate Software Engineer"
             duration="Jan 2024 – Mar 2026 (2 years 2 months)"
-            description="Developed comprehensive mobile and web applications serving thousands of users globally, driving digital transformation initiatives across multiple platforms. Contributed to cost optimization strategies, performance enhancements, and scalable solution architecture. Led cross-platform development projects while consistently exceeding performance targets and delivering innovative solutions ahead of schedule."
+            description="Developed comprehensive mobile and web applications serving thousands of users globally, driving digital transformation initiatives across multiple platforms. Contributed to cost optimization strategies, performance enhancements, and scalable solution architecture. Led cross-platform development projects while consistently exceeding performance targets, delivering innovative solutions ahead of schedule, and collaborating with cross-functional teams to translate business requirements into reliable production-ready software."
           />
         </div>
 
@@ -32,7 +32,7 @@ export default function WorkExperienceSection() {
           <ResumeJob
             title="Internship Trainee"
             duration="Jun 2023 – Dec 2023 (6 months)"
-            description="Designed and developed foundational web infrastructure and content management systems for organizational digital presence. Contributed to process automation, API development, and cost reduction initiatives. Built responsive web solutions while gaining hands-on experience in full-stack development methodologies and agile project delivery."
+            description="Designed and developed foundational web infrastructure and content management systems for organizational digital presence. Contributed to process automation, API development, and cost reduction initiatives. Built responsive web solutions while gaining hands-on experience in full-stack development methodologies and agile project delivery, and supported senior engineers in feature implementation, testing, and issue resolution across active projects."
           />
         </div>
 

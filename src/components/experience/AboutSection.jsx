@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section className="grid grid-cols-[2fr_1fr] gap-8 mb-6 max-[760px]:grid-cols-1">
+    <section className="about-print-grid grid grid-cols-[2fr_1fr] gap-8 mb-6 max-[760px]:grid-cols-1">
 
       {/* LEFT - ABOUT */}
       <div>
