@@ -4,9 +4,8 @@ Resume portfolio built with Next.js App Router and Tailwind CSS.
 
 ## Features
 
-- Home page with links to both resume variants
+- Home page linking to the resume page
 - ` /experience ` route for the experienced software engineer resume
-- ` /fresher ` route for the entry-level resume
 - Print-friendly layouts for exporting resumes as PDF
 - Shared hero component and reusable section structure
 
@@ -25,11 +24,9 @@ src/
     layout.js
     globals.css
     experience/page.jsx
-    fresher/page.jsx
   components/
     Hero.jsx
     ExperienceResume.jsx
-    FresherResume.jsx
 public/
   profile.png
 ```

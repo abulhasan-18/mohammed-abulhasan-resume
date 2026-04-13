@@ -1,12 +1,12 @@
 export default function Hero({
-  name,
-  title,
-  tagline,
-  phone,
-  email,
-  linkedin,
-  portfolio,
-  github,
+  name = "Mohammed Abulhasan M",
+  title = "Software Engineer",
+  tagline = "Software & Flutter Developer | Dart | Java | Spring Boot | Rest API | Database | SQL | Docker | Kubernetes | Supabase | Power BI & Python",
+  phone = "+971 58 302 7090",
+  email = "mdyahasan18@gmail.com",
+  linkedin = "linkedin.com/in/mohammed-abulhasan-256767235",
+  portfolio = "abulhasan-portfolio.vercel.app",
+  github = "github.com/abulhasan-18",
   variant = "experience",
 }) {
   const contactLine = `Phone: ${phone} | Email: ${email}`;

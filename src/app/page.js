@@ -8,23 +8,16 @@ export default function Home() {
           </h1>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-6 rounded-full"></div>
           <p className="text-lg text-gray-600 leading-relaxed">
-            Choose which version of the resume you want to view or download. 
-            Both pages are optimized for printing and ATS compatibility.
+            View or download the software engineer resume. The page is optimized for printing and ATS compatibility.
           </p>
         </div>
-        
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="/fresher"
-            className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-200 transform hover:scale-[1.02] shadow-lg hover:shadow-blue-200"
-          >
-            Entry Level (Fresher)
-          </a>
+
+        <div className="flex justify-center">
           <a
             href="/experience"
-            className="flex-1 bg-white hover:bg-gray-50 text-gray-900 border-2 border-gray-200 font-semibold py-4 px-6 rounded-xl transition-all duration-200 transform hover:scale-[1.02] shadow-sm hover:shadow-md"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-200 transform hover:scale-[1.02] shadow-lg hover:shadow-blue-200"
           >
-            Experienced Engineer
+            View Resume
           </a>
         </div>
 
