@@ -4,11 +4,12 @@ Resume portfolio built with Next.js App Router and Tailwind CSS.
 
 ## Features
 
-- Home page linking to eight experienced role resume variants
-- `/roles/[role]` routes for marketing, sales, AML, cyber security, L1 support, customer service, Emirates Group customer service, and telesales
+- Home page linking to 13 experienced role resume variants
+- `/roles/[role]` routes for marketing, sales, AML, fraud operations, digital finance, cyber security, L1 support, customer service, Emirates Group customer service, telesales, executive assistant, AI narrative producer, and junior executive digitalization
 - Existing `/experience` and `/data-analyst` routes remain available
 - Print-friendly layouts for exporting resumes as PDF
 - Shared hero component and reusable section structure
+- 15 pre-generated PDF resumes in `resumes/` folder
 
 ## Tech Stack
 
@@ -30,20 +31,20 @@ src/
   components/
     Hero.jsx
     ExperienceResume.jsx
+    DataAnalystResume.jsx
     roles/
       RoleResume.jsx
       roleResumeData.js
+    resume/
+      ResumeSection.jsx
+      ResumeJob.jsx
 public/
   profile.png
+resumes/
+  (15 PDF files)
 ```
 
 ## Getting Started
-
-Install dependencies:
-
-```bash
-npm install
-```
 
 Start the development server:
 
