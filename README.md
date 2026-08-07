@@ -4,8 +4,9 @@ Resume portfolio built with Next.js App Router and Tailwind CSS.
 
 ## Features
 
-- Home page linking to the resume page
-- ` /experience ` route for the experienced software engineer resume
+- Home page linking to eight experienced role resume variants
+- `/roles/[role]` routes for marketing, sales, AML, cyber security, L1 support, customer service, Emirates Group customer service, and telesales
+- Existing `/experience` and `/data-analyst` routes remain available
 - Print-friendly layouts for exporting resumes as PDF
 - Shared hero component and reusable section structure
 
@@ -23,10 +24,15 @@ src/
     page.js
     layout.js
     globals.css
+    roles/[role]/page.jsx
     experience/page.jsx
+    data-analyst/page.jsx
   components/
     Hero.jsx
     ExperienceResume.jsx
+    roles/
+      RoleResume.jsx
+      roleResumeData.js
 public/
   profile.png
 ```

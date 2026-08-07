@@ -53,6 +53,17 @@ a {
 }
 
 @media print {
+  @page {
+    margin: 0;
+    size: A4;
+  }
+
+  html,
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
   .about-print-grid {
     display: grid !important;
     grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) !important;

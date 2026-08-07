@@ -2,7 +2,10 @@ export default function ResumeJob({
   title,
   duration,
   description,
+  highlights = [],
 }) {
+  const paragraph = [description, ...highlights].filter(Boolean).join(" ");
+
   return (
     <div className="ml-4">
       {/* Title + Duration */}
@@ -14,9 +17,7 @@ export default function ResumeJob({
       </h4>
 
       {/* Description */}
-      <p className="text-[12px] text-gray-800 leading-relaxed mt-2">
-        {description}
-      </p>
+      <p className="text-[12px] text-gray-800 leading-7 mt-2">{paragraph}</p>
     </div>
   );
 }
