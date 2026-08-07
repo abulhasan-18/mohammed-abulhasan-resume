@@ -1,7 +1,3 @@
-Absolutely. If this is going on GitHub as a serious portfolio project, I’d make the README feel more like a **real production SaaS project** rather than a basic CRUD app.
-
-Below is a more advanced README with **architecture diagrams, data flow, feature map, database relationships, workflow, tech stack, and roadmap**. You can paste it directly into `README.md`.
-
 # 🚀 Resume Hub
 
 > **One platform to manage every resume, tailor applications, and track your job search.**
