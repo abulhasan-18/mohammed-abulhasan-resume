@@ -64,43 +64,18 @@ a {
     print-color-adjust: exact !important;
   }
 
-  .about-print-grid {
-    display: grid !important;
-    grid-template-columns: minmax(0, 7fr) minmax(0, 3fr) !important;
-    gap: 2rem !important;
-  }
-
-  /* Prevent section headings from being separated from content */
-  h3,
-  h4 {
+  /* Prevent headings from being separated from their content */
+  h3, h4 {
     page-break-after: avoid;
+  }
+
+  /* Keep job entries together */
+  .relative.border-l > div {
     page-break-inside: avoid;
   }
 
-  /* Keep job entries together (title + duration + description) */
-  .relative.border-l > div,
-  .ResumeJob,
-  .ProjectItem {
-    page-break-inside: avoid;
-  }
-
-  /* Keep resume sections together */
-  section[class*="mb-6"] {
-    page-break-inside: avoid;
-  }
-
-  /* Prevent breaking inside list items */
-  li {
-    page-break-inside: avoid;
-  }
-
-  /* Prevent breaking inside paragraphs */
-  p {
-    page-break-inside: avoid;
-  }
-
-  /* Ensure grid items don't break */
-  .grid > div {
+  /* Keep project items together */
+  .mb-6 > h4, .mb-6 > p, .mb-6 > ul {
     page-break-inside: avoid;
   }
 }
