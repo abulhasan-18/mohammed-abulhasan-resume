@@ -6,7 +6,7 @@ import { sharedCertifications, sharedEducation } from "./roleResumeData";
 
 function AboutSection({ summary, skills }) {
   return (
-    <section className="about-print-grid grid grid-cols-[2fr_1fr] gap-8 mb-6 max-[760px]:grid-cols-1">
+    <section className="about-print-grid grid grid-cols-[7fr_3fr] gap-8 mb-6 max-[760px]:grid-cols-1">
       <div>
         <h3 className="text-sm font-bold uppercase tracking-wide border-b border-black pb-0.5 mb-3">
           About

@@ -54,7 +54,7 @@ a {
 
 @media print {
   @page {
-    margin: 0;
+    margin: 0.4in;
     size: A4;
   }
 
@@ -66,7 +66,41 @@ a {
 
   .about-print-grid {
     display: grid !important;
-    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) !important;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 3fr) !important;
     gap: 2rem !important;
+  }
+
+  /* Prevent section headings from being separated from content */
+  h3,
+  h4 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Keep job entries together (title + duration + description) */
+  .relative.border-l > div,
+  .ResumeJob,
+  .ProjectItem {
+    page-break-inside: avoid;
+  }
+
+  /* Keep resume sections together */
+  section[class*="mb-6"] {
+    page-break-inside: avoid;
+  }
+
+  /* Prevent breaking inside list items */
+  li {
+    page-break-inside: avoid;
+  }
+
+  /* Prevent breaking inside paragraphs */
+  p {
+    page-break-inside: avoid;
+  }
+
+  /* Ensure grid items don't break */
+  .grid > div {
+    page-break-inside: avoid;
   }
 }
