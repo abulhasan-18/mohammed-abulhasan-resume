@@ -74,8 +74,8 @@ a {
     page-break-inside: avoid;
   }
 
-  /* Keep project items together */
-  .mb-6 > h4, .mb-6 > p, .mb-6 > ul {
+  /* Keep each project (title + description + points) together on one page */
+  .mb-6 {
     page-break-inside: avoid;
   }
 }
