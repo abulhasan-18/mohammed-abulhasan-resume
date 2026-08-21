@@ -1075,6 +1075,170 @@ export const roleResumes = [
       },
     ],
   },
+  {
+    slug: "business-analyst",
+    certifications: [
+      "Business Analysis Fundamentals - Udemy (2024)",
+      "SQL (Intermediate) - HackerRank Skill Certification (2025)",
+      "Full Stack Development Certification - SmartCliff Learning Solutions (2023)",
+    ],
+    label: "Business Analyst",
+    pageTitle: "Mohammed Abulhasan - Business Analyst Resume",
+    cardDescription:
+      "Business analyst profile focused on requirements gathering, process mapping, data analysis, stakeholder communication, and solution design.",
+    heroTitle: "Business Analyst",
+    heroTagline:
+      "BRD | Requirements gathering | Process mapping | SQL | Excel | Power BI | JIRA | Stakeholder communication | UAT",
+    summary:
+      "Detail-oriented Business Analyst with 2+ years of experience at CloudPixels Consultancy Services. Strong in gathering requirements, documenting BRDs, mapping business processes, and translating stakeholder needs into actionable solutions. Skilled in SQL, Excel, Power BI, and data analysis for validating business rules and supporting data-driven decisions. Comfortable conducting gap analysis, preparing test cases, coordinating UAT sessions, and facilitating communication between technical teams and business stakeholders. Experienced in maintaining project documentation, tracking requirements through JIRA, and ensuring alignment between delivered solutions and business objectives.",
+    skills: [
+      "BRD & requirements gathering",
+      "Process mapping & flowcharts",
+      "SQL & data analysis",
+      "Excel & Power BI",
+      "Stakeholder communication",
+      "UAT coordination",
+      "JIRA & Confluence",
+      "Gap analysis & solution design",
+    ],
+    companyName: sharedCompany,
+    experience: [
+      {
+        title: "Business Analyst",
+        duration: "Jan 2024 - Mar 2026 (2 years 2 months)",
+        description:
+          "Gathered business requirements, documented BRDs, mapped processes, and coordinated with development teams to deliver data-driven solutions. Supported UAT, validated business rules, and maintained project documentation for stakeholder alignment.",
+        highlights: [
+          "Prepared BRDs and process flow diagrams for digital transformation projects.",
+          "Conducted stakeholder interviews to gather and validate business requirements.",
+          "Coordinated UAT sessions and prepared test cases to validate delivered solutions.",
+          "Built SQL queries and Power BI dashboards to support data analysis and reporting.",
+          "Maintained JIRA backlogs and tracked requirements through the project lifecycle.",
+          "Facilitated communication between business stakeholders and development teams.",
+        ],
+      },
+      {
+        title: "Business Analyst Intern",
+        duration: "Jun 2023 - Dec 2023 (7 months)",
+        description:
+          "Supported requirements documentation, process mapping, and data validation tasks while learning structured business analysis methodologies.",
+        highlights: [
+          "Assisted with BRD documentation and stakeholder meeting notes.",
+          "Mapped current-state and future-state business processes.",
+          "Validated data outputs against business rules using SQL and Excel.",
+          "Helped prepare UAT test cases and tracked defect resolution.",
+        ],
+      },
+    ],
+    projects: [
+      {
+        title: "Tamil Calendars 365 - Mobile & Web Platform",
+        duration: "Aug 2025 - Mar 2026",
+        description:
+          "Gathered requirements and analyzed product usage data to understand user engagement, content popularity, and feature adoption across platforms.",
+        points: [
+          "Documented BRDs for content digitization and feature enhancements.",
+          "Built Power BI dashboards to track daily usage and engagement metrics.",
+          "Conducted gap analysis between current features and user requirements.",
+          "Coordinated with development teams to prioritize feature delivery.",
+        ],
+      },
+      {
+        title: "Christian Community Multimedia App",
+        duration: "Mar 2024 - Oct 2025",
+        description:
+          "Analyzed media consumption patterns and gathered stakeholder requirements to improve content delivery and user experience.",
+        points: [
+          "Prepared requirements documentation for content management features.",
+          "Analyzed user engagement data to identify content improvement opportunities.",
+          "Facilitated stakeholder workshops to validate solution designs.",
+          "Coordinated UAT for new feature releases and documented feedback.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "data-engineer",
+    certifications: [
+      "Snowflake SnowPro Core Certification - Snowflake (2025)",
+      "SQL (Intermediate) - HackerRank Skill Certification (2025)",
+      "Full Stack Development Certification - SmartCliff Learning Solutions (2023)",
+    ],
+    label: "Data Engineer",
+    pageTitle: "Mohammed Abulhasan - Data Engineer Resume",
+    cardDescription:
+      "Data engineer profile focused on Snowflake, ETL pipelines, data modeling, SQL optimization, and cloud data warehousing.",
+    heroTitle: "Data Engineer",
+    heroTagline:
+      "Snowflake | SQL | Python | ETL | Data Modeling | Airflow | dbt | Snowpipe | Data Warehouse | Cloud",
+    summary:
+      "Data Engineer with 2+ years of experience at CloudPixels Consultancy Services building and maintaining data pipelines, designing data models, and optimizing cloud data warehouse solutions. Proficient in Snowflake, SQL, Python, ETL workflows, and data modeling with strong focus on data quality, performance optimization, and scalable architectures. Experienced in Snowpipe automation, dbt transformations, Airflow orchestration, and building repeatable data ingestion workflows. Skilled in schema design, data validation, performance tuning, and supporting downstream analytics teams with reliable, well-documented datasets.",
+    skills: [
+      "Snowflake & Snowpipe",
+      "SQL & query optimization",
+      "Python & ETL development",
+      "Data modeling & schema design",
+      "dbt & Airflow",
+      "Cloud data warehousing",
+      "Data quality & validation",
+      "Performance tuning",
+    ],
+    companyName: sharedCompany,
+    experience: [
+      {
+        title: "Data Engineer",
+        duration: "Jan 2024 - Mar 2026 (2 years 2 months)",
+        description:
+          "Designed and maintained ETL pipelines, built Snowflake data models, optimized queries, and supported data warehouse operations for downstream analytics teams.",
+        highlights: [
+          "Designed and implemented Snowflake schemas, views, and stored procedures for data warehousing.",
+          "Built and maintained ETL pipelines using Python, SQL, and Airflow for data ingestion.",
+          "Configured Snowpipe for automated data loading from S3 and cloud storage sources.",
+          "Optimized SQL queries and Snowflake warehouses to reduce compute costs and improve performance.",
+          "Developed dbt models for data transformations and maintained documentation for data lineage.",
+          "Collaborated with analytics teams to validate data quality and resolve pipeline issues.",
+        ],
+      },
+      {
+        title: "Data Engineer Intern",
+        duration: "Jun 2023 - Dec 2023 (7 months)",
+        description:
+          "Supported data pipeline development, schema design, and data validation tasks while learning cloud data warehousing and ETL best practices.",
+        highlights: [
+          "Assisted with Snowflake schema design and table creation for data staging.",
+          "Wrote SQL queries for data validation and quality checks across datasets.",
+          "Supported ETL pipeline testing and documented data flow processes.",
+          "Helped configure Snowpipe auto-ingest rules for recurring data loads.",
+        ],
+      },
+    ],
+    projects: [
+      {
+        title: "Tamil Calendars 365 - Data Pipeline",
+        duration: "Aug 2025 - Mar 2026",
+        description:
+          "Built data ingestion and transformation pipelines to process platform usage data into Snowflake for analytics and reporting.",
+        points: [
+          "Designed Snowflake schemas for daily usage, content engagement, and user activity data.",
+          "Built ETL workflows using Python and SQL to ingest data from multiple sources.",
+          "Configured Snowpipe for automated daily data loads from cloud storage.",
+          "Optimized queries to reduce warehouse compute time and improve dashboard performance.",
+        ],
+      },
+      {
+        title: "Christian Community Multimedia App - Data Warehouse",
+        duration: "Mar 2024 - Oct 2025",
+        description:
+          "Designed and maintained a Snowflake data warehouse to consolidate media consumption data for analytics and reporting.",
+        points: [
+          "Built star schema data models for media engagement and user activity tracking.",
+          "Developed dbt models for data transformations and materialized views.",
+          "Implemented data quality checks and validation rules across pipelines.",
+          "Created Airflow DAGs to orchestrate daily ETL workflows and error handling.",
+        ],
+      },
+    ],
+  },
 ];
 
 const roleResumeMap = Object.fromEntries(

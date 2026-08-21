@@ -42,6 +42,9 @@ function SummarySection() {
         law, corporate compliance, and legal documentation through internships
         and postgraduate specialization at NLSIU. Interested in corporate
         legal, compliance, investigations, and technology-driven legal practice.
+        Adept at managing multiple cases simultaneously while maintaining
+        attention to detail and meeting strict deadlines. Committed to delivering
+        ethical and client-focused legal solutions.
       </p>
     </section>
   );
@@ -134,40 +137,30 @@ function ExperienceSection() {
 
 function EducationSection() {
   return (
-    <section className="mb-5">
+    <section className="mb-8">
       <SectionTitle>Education</SectionTitle>
 
       <div className="space-y-3">
-        <div className="flex items-baseline justify-between">
-          <div>
-            <h4 className="text-[12.5px] font-semibold text-gray-900 inline">
-              PG Diploma in Cyber Law &amp; Cyber Forensics
-            </h4>
-            <span className="text-[11.5px] text-gray-500"> — NLSIU</span>
+        <div className="mb-2.5">
+          <div className="text-[12px] font-bold">
+            PG Diploma in Cyber Law &amp; Cyber Forensics
+            <span className="text-gray-500 font-normal"> · 2026</span>
           </div>
-          <span className="text-[10.5px] text-gray-500">2026</span>
+          <div className="text-[11px] my-0.5">National Law School of India University, Bangalore</div>
         </div>
-        <div className="flex items-baseline justify-between">
-          <div>
-            <h4 className="text-[12.5px] font-semibold text-gray-900 inline">
-              LL.B.
-            </h4>
-            <span className="text-[11.5px] text-gray-500">
-              {" "} — Vivekananda College of Law (KSLU)
-            </span>
+        <div className="mb-2.5">
+          <div className="text-[12px] font-bold">
+            LL.B.
+            <span className="text-gray-500 font-normal"> · 2025</span>
           </div>
-          <span className="text-[10.5px] text-gray-500">2025</span>
+          <div className="text-[11px] my-0.5">Vivekananda College of Law, Affiliated to Karnataka State Law University, Bangalore</div>
         </div>
-        <div className="flex items-baseline justify-between">
-          <div>
-            <h4 className="text-[12.5px] font-semibold text-gray-900 inline">
-              B.A. English Literature
-            </h4>
-            <span className="text-[11.5px] text-gray-500">
-              {" "} — Bharathiar University
-            </span>
+        <div className="mb-2.5">
+          <div className="text-[12px] font-bold">
+            B.A. English Literature
+            <span className="text-gray-500 font-normal"> · 2022</span>
           </div>
-          <span className="text-[10.5px] text-gray-500">2022</span>
+          <div className="text-[11px] my-0.5">VET Institute of Arts & Science College, Affiliated to Bharathiar University, Erode</div>
         </div>
       </div>
     </section>
@@ -176,7 +169,7 @@ function EducationSection() {
 
 function CoreCompetenciesSection() {
   return (
-    <section className="mb-5">
+    <section className="mb-5 print:break-before-page">
       <SectionTitle>Core Competencies</SectionTitle>
 
       <div className="grid grid-cols-[130px_1fr] gap-y-2 text-[11.5px] leading-[1.7]">
@@ -221,7 +214,7 @@ function CertificationsSection() {
   ];
 
   return (
-    <section className="mb-5 print:pt-[0.45in] print:break-before-page">
+    <section className="mb-5">
       <SectionTitle>Certifications</SectionTitle>
       <div className="flex flex-wrap gap-1.5">
         {certs.map((cert) => (
